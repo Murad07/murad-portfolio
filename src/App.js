@@ -7,6 +7,8 @@ import {
   Link
 } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -14,13 +16,13 @@ function App() {
       <Navbar></Navbar>
       <Switch>
           <Route path="/home">
-            {/* <About /> */}
+           <Home></Home>
           </Route>
-          <Route path="/users">
-            {/* <Users /> */}
+          <Route path="/projects">
+            <Projects></Projects>
           </Route>
           <Route path="/">
-            {/* <Home /> */}
+            <Home></Home>
           </Route>
         </Switch>
     </Router>
