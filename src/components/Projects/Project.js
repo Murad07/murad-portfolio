@@ -18,7 +18,7 @@ const Project = ({item}) => {
                     <a href={item.liveLink} className="btn btn-outline-secondary mr-3">Live</a>
                     <a href={item.client} className="btn btn-outline-secondary mr-3">Client</a>
                     {
-                        (item.server != "") && <a href={item.server} className="btn btn-outline-secondary">Server</a>
+                        (item.server !== "") && <a href={item.server} className="btn btn-outline-secondary">Server</a>
                     }
                 </div>
             </div>

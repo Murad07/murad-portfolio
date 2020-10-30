@@ -12,8 +12,8 @@ const Resume = () => {
                 <div className="col-sm-6">
                     <p className="leftT m-0">Mobile: +8801927574610</p>
                     <p className="leftT m-0">Email: murad.pi22@gamil.com</p>
-                    <p className="leftT m-0" ><a  href="https://github.com/Murad07">Github</a></p>
-                    <p className="leftT m-0"><a  href="www.linkedin.com/in/murad-hossain-6a12b212a">LinkedIn</a></p>
+                    <p className="leftT m-0" ><a className="linkColor" href="https://github.com/Murad07">Github</a></p>
+                    <p className="leftT m-0"><a className="linkColor" href="www.linkedin.com/in/murad-hossain-6a12b212a">LinkedIn</a></p>
                 </div>
             </div>
             <hr/>
@@ -38,9 +38,9 @@ const Resume = () => {
                             - Users also make a review and it will show on the landing page review section. <br/>
                             - Make an admin panel for manage Order, create new service and assign new admin. <br/>
                             
-                            <a href="https://creative-agency-m.web.app/">- Live Site</a> <br/>
-                            <a href="https://github.com/Murad07/creative-agency-client">- Client Source Code</a> <br/>
-                            <a href="https://github.com/Murad07/creative-agency-server">- Server Source Code</a>
+                            <a className="linkColor" href="https://creative-agency-m.web.app/">- Live Site</a> <br/>
+                            <a className="linkColor" href="https://github.com/Murad07/creative-agency-client">- Client Source Code</a> <br/>
+                            <a className="linkColor" href="https://github.com/Murad07/creative-agency-server">- Server Source Code</a>
                         </p>
                     </li>
                     <li>
@@ -50,9 +50,9 @@ const Resume = () => {
                             - Users can participate in a volunteer activity by Sign In and manage his/her activity. <br/>
                             - Admin is able to add new volunteer services and manage User activity. <br/>
 
-                            <a href="https://volunteer-network-m.web.app/">- Live Site</a> <br/>
-                            <a href="https://github.com/Murad07/volunteer-network">- Client Source Code</a> <br/>
-                            <a href="https://github.com/Murad07/volunteer-network-server">- Server Source Code</a>
+                            <a className="linkColor" href="https://volunteer-network-m.web.app/">- Live Site</a> <br/>
+                            <a className="linkColor" href="https://github.com/Murad07/volunteer-network">- Client Source Code</a> <br/>
+                            <a className="linkColor" href="https://github.com/Murad07/volunteer-network-server">- Server Source Code</a>
                         </p>
                     </li>
                     <li>
@@ -64,9 +64,9 @@ const Resume = () => {
                             - Customer Login system. <br/>
                             - Simple inventory form. <br/>
 
-                            <a href="https://ema-jhon-m.web.app/">- Live Site</a> <br/>
-                            <a href="https://github.com/Murad07/ema-john-simple">- Client Source Code</a> <br/>
-                            <a href="https://github.com/Murad07/ema-john-server">- Server Source Code</a>
+                            <a className="linkColor" href="https://ema-jhon-m.web.app/">- Live Site</a> <br/>
+                            <a className="linkColor" href="https://github.com/Murad07/ema-john-simple">- Client Source Code</a> <br/>
+                            <a className="linkColor" href="https://github.com/Murad07/ema-john-server">- Server Source Code</a>
                         </p>
                     </li>
                 </ul>
@@ -90,7 +90,7 @@ Bootstrap, Laravel, Laravel Gattext, and MySQL.</li>
                 <h5 className="pt-3">GAME DEVELOPER | HAMZA GAMES | 2017 - 2020</h5>
                 <li>Design and develop Mobile games in ActionScript 3.</li>
                 <li>Tools: Adobe Flush, Adobe Photoshop, Box2D.</li>
-                <li>Live Link: <a href="https://play.google.com/store/apps/details?id=air.doodlemonkeyjump">Kids Doodle Army Jump</a></li>
+                <li>Live Link: <a className="linkColor" href="https://play.google.com/store/apps/details?id=air.doodlemonkeyjump">Kids Doodle Army Jump</a></li>
             </div>
 
             <div className="pt-3">
