@@ -4,7 +4,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light menuBg" >
-            <a className="navbar-brand text-white" href="/home">Mohammad Murad Hossain</a>
+            <a className="navbar-brand text-white" href="/home">M</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     <a className="nav-link text-white" href="/resume">Resume</a>
                 </li>
                 <li className="nav-item">
-                    <button className="btn-primary"><a className="nav-link text-white" href="/resume">Download Resume</a></button>
+                    <button className="btn btn-primary"><a className="text-white" href="https://drive.google.com/file/d/1W6qKPLEH2_wgVAi7cIFDV2ZrOXNLSKh-/view">Download Resume</a></button>
                 </li>
                 </ul>
             </div>

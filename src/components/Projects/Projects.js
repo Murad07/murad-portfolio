@@ -33,7 +33,7 @@ const Projects = () => {
             server: "https://github.com/Murad07/volunteer-network-server",
         },
         {
-            name: "Ema Jhon Ecommerce",
+            name: "Ema John Ecommerce",
             features: [
                 "Customer Login System.",
                 "Add to Card option",
@@ -49,6 +49,7 @@ const Projects = () => {
     ]
     return (
         <div className="container">
+            {/* <h3 className="text-center">Projects</h3> */}
             <div className="row">
                 {
                     items.map((item, i) => 
