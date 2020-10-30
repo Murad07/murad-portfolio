@@ -9,7 +9,7 @@ const Project = ({item}) => {
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
 
     return (
-        <div className="col-md-4 col-sm-6 pt-4">
+        <div className="col-md-4 pt-4">
             <a href={item.liveLink} className='serviceLink'>
                 <animated.div className="serviceCard" 
                     onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
