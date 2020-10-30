@@ -3,6 +3,8 @@ import Project from './Project';
 import creativeAgency from '../../images/creativeAgency.png';
 import volunteer from '../../images/volunteer.png';
 import emaJohn from '../../images/emaJohn.png';
+import hotG from '../../images/hotG.PNG';
+import tV from '../../images/tV.PNG';
 
 const Projects = () => {
     const items = [
@@ -45,7 +47,30 @@ const Projects = () => {
             client: "https://github.com/Murad07/ema-john-simple",
             server: "https://github.com/Murad07/ema-john-server",
         },
-        
+        {
+            name: "Hot Gadgets",
+            features: [
+                "A ecommerce app using bootstrap",
+                "Category of products",
+                "Top products slide show on header section",
+            ],
+            pic: hotG,
+            liveLink: "https://murad07.github.io/hot-gadgets/",
+            client: "https://github.com/Murad07/hot-gadgets",
+            server: "",
+        },
+        {
+            name: "Travel Guru",
+            features: [
+                "A single page application provides online traveling package",
+                "Location base hotel booking system",
+                "Google map location",
+            ],
+            pic: tV,
+            liveLink: "https://travel-guru-m.web.app/",
+            client: "https://github.com/Murad07/travel-guru",
+            server: "",
+        },
     ]
     return (
         <div className="container">

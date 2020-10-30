@@ -26,7 +26,7 @@ const Navbar = () => {
                     <a className="nav-link text-white" href="/resume">Resume</a>
                 </li>
                 <li className="nav-item">
-                    <button className="btn btn-primary"><a className="text-white" href="https://drive.google.com/file/d/1W6qKPLEH2_wgVAi7cIFDV2ZrOXNLSKh-/view">Download Resume</a></button>
+                    <button className="btn btn-info"><a className="text-white" href="https://drive.google.com/file/d/1W6qKPLEH2_wgVAi7cIFDV2ZrOXNLSKh-/view">Download Resume</a></button>
                 </li>
                 </ul>
             </div>

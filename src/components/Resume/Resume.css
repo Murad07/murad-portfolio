@@ -1,0 +1,12 @@
+.leftT {
+  text-align: right;
+}
+@media screen and (max-width: 48em) {
+  .leftT {
+    text-align: left;
+  }
+}
+
+a {
+  color: blue;
+}

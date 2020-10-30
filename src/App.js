@@ -10,6 +10,8 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import Resume from './components/Resume/Resume';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="/resume">
+            <Resume></Resume>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
           <Route path="/">
             <Home></Home>
