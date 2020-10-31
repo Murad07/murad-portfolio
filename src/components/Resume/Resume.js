@@ -3,7 +3,7 @@ import './Resume.css';
 
 const Resume = () => {
     return (
-        <div className="container py-4">
+        <div className="container py-4 mt-5">
             <div className="row ">
                 <div className="col-sm-6 mt-auto">
                     <h2>Mohammad</h2>

@@ -73,8 +73,8 @@ const Projects = () => {
         },
     ]
     return (
-        <div className="container">
-            {/* <h3 className="text-center">Projects</h3> */}
+        <div className="container mt-5">
+            <h4 className="text-center pt-4">All of my Projects</h4>
             <div className="row">
                 {
                     items.map((item, i) => 

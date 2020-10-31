@@ -6,7 +6,7 @@ import Projects from './Projects';
 
 const Home = () => {
     return (
-        <div>
+        <div className="mt-5">
             <Header></Header>
             <Projects></Projects>
             <Blogs></Blogs>

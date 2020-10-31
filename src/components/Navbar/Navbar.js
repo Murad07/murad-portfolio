@@ -1,9 +1,11 @@
 import React from 'react';
 import './Navbar.css';
+import myResume from '../../resume/muradResume.pdf';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light menuBg" >
+        <nav className="navbar fixed-top navbar-expand-lg navbar-light menuBg" >
             <a className="navbar-brand text-white" href="/home">M</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -26,7 +28,7 @@ const Navbar = () => {
                     <a className="nav-link text-white" href="/resume">Resume</a>
                 </li>
                 <li className="nav-item">
-                    <button className="btn btn-info"><a className="text-white" href="https://drive.google.com/file/d/1W6qKPLEH2_wgVAi7cIFDV2ZrOXNLSKh-/view">Download Resume</a></button>
+                    <button className="btn btn-info"><Link to={myResume} target="_blank" download>Download Resume</Link></button>
                 </li>
                 </ul>
             </div>

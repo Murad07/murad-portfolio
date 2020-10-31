@@ -18,7 +18,7 @@ const Contact = () => {
     }
     
     return (
-        <div className="container pt-4">
+        <div className="container pt-4 mt-5">
             <form className="contact-form mx-auto" onSubmit={sendEmail}>
                 <h2 className="text-center text-white">Get In Touch</h2>
                 <div className="form-group">
