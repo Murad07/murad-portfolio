@@ -29,8 +29,8 @@ const Header = () => {
                             <div className="col-md-2 col-4 pt-3"><span className="keyW">Bootstrap</span></div>
                         </div>
                         <div className="mt-4">
-                            <a href="https://github.com/Murad07"><img height="40px" src={linkedinIcon} alt=""/></a>
-                            <a href="www.linkedin.com/in/murad-hossain-6a12b212a"><img height="53px" src={gitIcon} alt=""/></a>
+                            <a href="https://www.linkedin.com/in/murad-hossain-6a12b212a"><img height="40px" src={linkedinIcon} alt=""/></a>
+                            <a href="https://github.com/Murad07"><img height="53px" src={gitIcon} alt=""/></a>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6 py-4">
