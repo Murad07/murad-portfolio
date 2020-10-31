@@ -28,7 +28,7 @@ const Navbar = () => {
                     <a className="nav-link text-white" href="/resume">Resume</a>
                 </li>
                 <li className="nav-item">
-                    <button className="btn btn-info"><Link to={myResume} target="_blank" download>Download Resume</Link></button>
+                    <button className="btn btn-outline-success"><Link className="text-white" to={myResume} target="_blank" download>Download Resume</Link></button>
                 </li>
                 </ul>
             </div>

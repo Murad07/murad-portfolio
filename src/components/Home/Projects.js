@@ -28,7 +28,7 @@ const Projects = () => {
     ]
     return (
         <div className="container">
-            <h2 className="text-center pt-4" style={{color: "#1B4F72"}}>Some of my Projects</h2>
+            <h2 className="text-center mt-4 py-1" style={{color: "white", backgroundColor: "#1abc9ca4"}}>Some of my Projects</h2>
             <div className="row pb-4">
                 {
                     items.map((item, i) => 

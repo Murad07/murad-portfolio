@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
+import ParticlesBg from 'particles-bg';
 
 const Contact = () => {
 
@@ -16,8 +17,11 @@ const Contact = () => {
 
          e.target.reset();
     }
+
+    
     
     return (
+        <div>
         <div className="container pt-4 mt-5">
             <form className="contact-form mx-auto" onSubmit={sendEmail}>
                 <h2 className="text-center text-white">Get In Touch</h2>
@@ -38,8 +42,13 @@ const Contact = () => {
                     <label className="text-white">Message</label>
                     <textarea className="form-control" name="message" />
                 </div>
-                <input className="form-control btn btn-info" type="submit" value="Send" />
+                <input className="form-control btn btn-success" type="submit" value="Send" />
+                <div className="row pt-2">
+                    <div className="col text-white text-center">Mobile: +8801927574610</div>
+                </div>
             </form>
+        </div>
+        <ParticlesBg color="#1abc9c" num={100} type="cobweb" bg={true}/>
         </div>
     );
 };

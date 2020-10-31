@@ -5,6 +5,7 @@ import volunteer from '../../images/volunteer.png';
 import emaJohn from '../../images/emaJohn.png';
 import hotG from '../../images/hotG.PNG';
 import tV from '../../images/tV.PNG';
+import ParticlesBg from 'particles-bg';
 
 const Projects = () => {
     const items = [
@@ -82,6 +83,7 @@ const Projects = () => {
                     )
                 }
             </div>
+            <ParticlesBg type="square" bg={true}/>
         </div>
     );
 };

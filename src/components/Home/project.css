@@ -6,9 +6,13 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-span {
-  background-color: cadetblue;
+.keyW {
+  border: 1px solid #1abc9c;
   border-radius: 5px;
   padding: 5px 10px;
   margin-right: 10px;
+  color: #1abc9c;
+}
+.headerBg {
+  background-color: rgba(4, 2, 20, 0.719);
 }

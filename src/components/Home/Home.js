@@ -1,3 +1,4 @@
+import ParticlesBg from 'particles-bg';
 import React from 'react';
 import Blogs from './Blogs';
 import Footer from './Footer';
@@ -11,6 +12,7 @@ const Home = () => {
             <Projects></Projects>
             <Blogs></Blogs>
             <Footer></Footer>
+            <ParticlesBg type="circle" bg={true}/>
         </div>
     );
 };
